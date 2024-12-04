@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alitas y Boneless - El Invasor Papas Al Carbon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+    <style>
+        @charset "UTF-8";
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            font-size: 140%;
+            background-color: #050505;
+            margin: 0;
+        }
+
+        /* Estilos para enlaces */
+        a:link,
+        a:visited {
+            color: #E74C3C;
+        }
+
+        a:focus,
+        a:hover,
+        a:active {
+            color: #FF5733;
+        }
+
+        a {
+            text-decoration: none;
+            border-bottom: 1px dotted;
+            padding-bottom: .2em;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            color: white;
+            background: url('imagenes/alitas_portada.JPG') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            height: 15em;
+            padding-top: 30px;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .header-content .logo {
+            width: 180px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        /* Estilos de los productos principales */
+        .content-wrapper {
+            padding: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        main {
+            font-family: 'Stint Ultra Expanded', cursive;
+            background-color: #1c1919;
+            line-height: 1.8em;
+            color: #fff;
+            padding: 1em;
+            border: double 4px #EADDC4;
+            border-radius: 25px;
+            margin: 1% 0;
+        }
+
+        main img {
+            float: left;
+            margin: -40px 2em 2em 0;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            letter-spacing: .2em;
+            color: #C0392B;
+            border-top: 1px solid;
+            border-left: 3px solid;
+            padding-left: 1em;
+            margin-top: 2em;
+            clear: both;
+        }
+
+        p.more {
+            font-family: verdana, sans-serif;
+            text-transform: uppercase;
+            font-size: .8em;
+            clear: left;
+        }
+
+        /* Estilos del footer */
+        footer {
+            color: #FF5733;
+            text-align: center;
+            font-size: .8em;
+            padding: 1.5em;
+            background-color: #000000;
+            width: 100%;
+            margin-top: 1em;
+        }
+
+        h2 {
+            font-family: 'Stint Ultra Expanded', cursive;
+        }
+
+        .day {
+            color: #FF5733;
+            font-family: verdana, sans-serif;
+            font-size: .8em;
+            text-transform: uppercase;
+        }
+
+        .menu-img {
+            width: 270px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-left: 1em;
+        }
+
+        /* Estilo para centrar y aumentar el tamaño del enlace */
+        .centered-link {
+            text-align: center;
+            font-size: 1.5em;
+            display: block;
+            margin-top: 0.5em;
+            /* Ajuste para subir más */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="imagenes/alitas_logo-removebg-preview.png" alt="Logo de Wing Bonanza" class="logo">
+            <h1>Alitas y Boneless</h1>
+        </div>
+        <p>¡Descubre el sabor perfecto con nuestras alitas y boneless!</p>
+    </header>
+
+    <div class="content-wrapper">
+        <main>
+            <h2>Menú</h2>
+            <h3>Alitas</h3>
+            <p>
+                <img src="imagenes/alitas-preview.png" alt="Alitas" class="menu-img">
+                ¡Selecciona nuestras alitas!
+            <ul>
+                <li>Sabores a elegir: BBQ, Buffalo y Parmesano</li>
+                <li>Costo: $120</li>
+            </ul>
+            INCLUYE PAPAS HASTA AGOTAR EXISTENCIAS!!!
+            </p>
+
+            <h3>Boneless</h3>
+            <p>
+                <img src="imagenes/boneless-preview.png" alt="Boneless" class="menu-img">
+                ¡Selecciona nuestros boneless!
+            <ul>
+                <li>Sabores a elegir: Mango Habanero y Mostaza</li>
+                <li>Costo: $130</li>
+            </ul>
+            INCLUYE PAPAS HASTA AGOTAR EXISTENCIAS!!!
+            </p>
+        </main>
+    </div>
+    <p class="centered-link"><a href="index.html">Volver al menu</a></p>
+    <footer>
+        <p>Todos los contenidos &copy; 2024 El Invasor Papas Al Carbon. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
